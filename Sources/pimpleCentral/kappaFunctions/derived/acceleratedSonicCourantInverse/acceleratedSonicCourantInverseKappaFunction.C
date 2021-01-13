@@ -113,7 +113,7 @@ tmp<surfaceScalarField> acceleratedSonicCourantInverseKappaFunction::kappa()
     (
         pow
         (
-            min(1.0 / FaceSonicCourant, 1.0),
+            min(1.0 / FaceSonicCourant, scalar(1.0)),
             power_
         )
     );

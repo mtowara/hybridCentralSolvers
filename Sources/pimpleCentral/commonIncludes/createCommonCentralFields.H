@@ -194,7 +194,7 @@
     else if (fluxScheme == "Tadmor")
     {
         //fields are equal
-        alpha_own = 0.5;
+        alpha_own = scalar(0.5);
         alpha_nei = 1.0 - alpha_own;
     }
     else
